@@ -61,7 +61,7 @@ function HomeHeader() {
         <Paper className={classes.root}>
                 <div className={classes.texts}>
                     <Typography variant="h2" gutterBottom >
-            Welcome Back, <span>{currentUser} </span>
+            Welcome, <span>{currentUser} </span>
             <img src={LOGO} height={55} width={55} />
                     </Typography>
                     {/* Comment out this line later */}
