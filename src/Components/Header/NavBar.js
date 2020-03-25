@@ -10,10 +10,9 @@ import AnalyticsIcon from '@material-ui/icons/Assessment';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Toolbar from '@material-ui/core/Toolbar'
-import AccountCircle from '@material-ui/icons/AccountCircle'
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 
-import { Route, Link, Redirect } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 //redux
 import {useSelector, useDispatch} from 'react-redux';

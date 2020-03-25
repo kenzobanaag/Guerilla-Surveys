@@ -15,7 +15,6 @@ export const loadSurvey = (id,token) => {
     return dispatch => {
         ApiCalls.newGetASurvey(id,token)
             .then(response => {
-                console.log(response)
                 dispatch(returnSurvey(response.data.data));
             }).catch(error => {
                 console.log(error)
@@ -52,13 +51,8 @@ export const saveSurvey = (surveyObject, token) => {
             })
         }
         else {
-            console.log("Update")
-            console.log(surveyObject.surveyId)
-            ApiCalls.newUpdateSurvey(surveyObject, token).then(response => {
-                //survId = response.data.split(" ")[0];
-                //window.location.href = "http://localhost:3000/create/"+survId;
+            ApiCalls.newUpdateSurvey(surveyObject, token).then(response => {      
                 alert("Changes saved!")
-                console.log(response)
                 return {
                     type: UPDATE_SURVEY
                 }

@@ -22,7 +22,6 @@ import VisibilityIcon from '@material-ui/icons/Visibility';
 import { useHistory } from "react-router-dom";
 
 //redux
-import * as actionTypes from '../../store/actions/actions';
 import { useDispatch, useSelector } from "react-redux";
 import * as homeActions from '../../store/actions/homeActions';
 

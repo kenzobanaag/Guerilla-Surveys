@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from '../Header/NavBar'
 import LoginPage from '../Login/loginPage'
 import { Switch, Route, Redirect } from 'react-router-dom'
 import SurveyPage from '../Survey/SurveyCreationPage';
