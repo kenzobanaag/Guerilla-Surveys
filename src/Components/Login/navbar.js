@@ -30,7 +30,7 @@ export default function SimpleTabs() {
       <AppBar position="static" className={classes.gradient}> 
       <Container maxWidth="md">
           <Typography variant="h1" className={classes.textfield} >
-            Guerilla Surveys
+            Guerrilla Surveys
           </Typography>
           <Divider className={classes.divider}/>
           <Typography 
